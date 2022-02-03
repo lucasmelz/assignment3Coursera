@@ -1,0 +1,93 @@
+*{
+    color: #f3ebd5;
+}
+
+body{
+font-size: 16px;
+    color: #f3ebd5;
+    background-color: #520303;
+}
+
+#header-nav {
+    background-color: #750820;
+    height:70px;
+    border-radius:0;
+    border:0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration:none;
+}
+.navbar-brand h1{
+    margin-top:-2px;
+    color: #f3ebd5;
+}
+
+#collapsable-nav{
+    margin-top:-5px;
+    margin-right:-69vw;
+}
+
+#nav-list a {
+    color: #f3ebd5;
+    text-align: center;
+    margin-top:-1.5px;
+    padding-bottom:11px;
+}
+
+#nav-list a:hover {
+    background: #a91e1e;
+}
+
+
+#nav-list a span {
+    font-size: 1.3em;
+}
+
+.navbar-header button.navbar-toggle{
+    background:transparent;
+    top: -4px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid #dcd4d7;
+}
+
+.navbar-header button.navbar-toggle:active,.navbar-header button.navbar-toggle:focus {
+    background:transparent;
+}
+
+.navbar-header button.navbar-toggle:hover{
+    background-color: #a91e1e;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+/*END HEADER*/
+
+#main-content{
+    margin-top: -20px;
+}
+
+
+@media screen and (max-width: 765px) {
+
+
+    #collapsable-nav {
+        width: 100vw;
+        border: transparent;
+    }
+
+    #nav-list a {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #header-nav {
+        height: 76px;
+    }
+
+}
